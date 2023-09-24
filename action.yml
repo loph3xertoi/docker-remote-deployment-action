@@ -1,4 +1,4 @@
-name: Docker Remote Deployment
+name: Docker Remote Server Deployment
 description: A GitHub Action that supports docker-compose and Docker Swarm deployments
 inputs:
   remote_docker_host:
