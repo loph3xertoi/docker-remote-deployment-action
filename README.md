@@ -56,6 +56,6 @@ Below is a brief example on how the action can be used:
   The docker registry password.
 ### `docker_registry_uri`
   The docker registry URI. Default is https://registry.hub.docker.com.
-### `DOCKER_COMPOSE_DOWN`
+### `docker_compose_down`
   Run docker compose down before up. Default is false.
 
