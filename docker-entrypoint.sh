@@ -7,6 +7,7 @@ execute_ssh(){
       -o UserKnownHostsFile=/dev/null \
       -p $INPUT_REMOTE_DOCKER_PORT \
       -o StrictHostKeyChecking=no "$INPUT_REMOTE_DOCKER_HOST" "$@"
+}
 
 if [ -z "${INPUT_REMOTE_DOCKER_PORT+x}" ]; then
   INPUT_REMOTE_DOCKER_PORT=22
